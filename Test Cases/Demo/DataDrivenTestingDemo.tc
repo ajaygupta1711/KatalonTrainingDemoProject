@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DataDrivenTestingDemo</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4388fc3e-9321-419d-a3b6-5c878804f774</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5a41fc58-6096-43a1-a6f4-a96da75fd5d5</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>35c7fdc8-0097-4b31-b3a5-46bc5c07eadf</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>
