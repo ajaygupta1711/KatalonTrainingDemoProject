@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>iframe_packageFrame</name>
+   <name>iframe_packageListFrame</name>
    <tag></tag>
-   <elementGuidId>b381f423-c496-4453-a157-41876824a8d6</elementGuidId>
+   <elementGuidId>93eec133-9ed3-4808-a233-90db7f0783b8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//iframe[@name='packageFrame']</value>
+         <value>//iframe[@name='packageListFrame']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>iframe[name=&quot;packageFrame&quot;]</value>
+         <value>iframe[name=&quot;packageListFrame&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,41 +28,41 @@
       <matchCondition>equals</matchCondition>
       <name>src</name>
       <type>Main</type>
-      <value>allclasses-frame.html</value>
+      <value>overview-frame.html</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>packageFrame</value>
+      <value>packageListFrame</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>title</name>
       <type>Main</type>
-      <value>All classes and interfaces (except non-static nested types)</value>
+      <value>All Packages</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/main[1]/div[@class=&quot;mainContainer&quot;]/div[@class=&quot;leftContainer&quot;]/div[@class=&quot;leftBottom&quot;]/iframe[1]</value>
+      <value>/html[1]/body[1]/main[1]/div[@class=&quot;mainContainer&quot;]/div[@class=&quot;leftContainer&quot;]/div[@class=&quot;leftTop&quot;]/iframe[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//iframe[@name='packageFrame']</value>
+      <value>//iframe[@name='packageListFrame']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/div/div[2]/iframe</value>
+      <value>//iframe</value>
    </webElementXpaths>
 </WebElementEntity>

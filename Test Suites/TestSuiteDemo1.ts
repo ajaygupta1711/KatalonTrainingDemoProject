@@ -15,19 +15,19 @@
       <guid>b37767f8-2766-4dd2-8ed1-c08c2ba57235</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Demo/ManualModeDemo</testCaseId>
+      <testCaseId>Test Cases/Day1 - Scripting, Recording Types/ManualModeDemo</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>e74f30e5-e869-4207-8f07-0208469baf30</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Demo/RecordModeDemo</testCaseId>
+      <testCaseId>Test Cases/Day1 - Scripting, Recording Types/RecordModeDemo</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>02c4db71-6754-4932-a16e-84d9f4175975</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Demo/ScriptModeDemo</testCaseId>
+      <testCaseId>Test Cases/Day1 - Scripting, Recording Types/ScriptModeDemo</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
