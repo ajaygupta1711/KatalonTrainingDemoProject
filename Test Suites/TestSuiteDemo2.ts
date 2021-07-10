@@ -15,12 +15,18 @@
       <guid>8f4ce3ab-3d29-457e-9bf7-d2a9838d29b0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Demo/ScriptModeDemo</testCaseId>
+      <testCaseId>Test Cases/Day1 - Scripting, Recording Types/ScriptModeDemo</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
          <variableId>4973e000-d1ae-4be0-beeb-11ee2ddf742b</variableId>
       </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a9d5e049-87d6-4d52-8355-7af477fd165c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Day7 - Listeners/ListenersDemo</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

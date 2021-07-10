@@ -6,12 +6,12 @@
    <elementGuidId>af55a742-1c61-4145-acb2-62813d10ea79</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>iframe[name=&quot;packageListFrame&quot;]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//iframe[@name='packageListFrame']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>iframe[name=&quot;packageListFrame&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
