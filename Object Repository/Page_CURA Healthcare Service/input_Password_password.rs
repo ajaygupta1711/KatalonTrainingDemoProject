@@ -4,11 +4,9 @@
    <name>input_Password_password</name>
    <tag></tag>
    <elementGuidId>873ffc6b-3194-4838-9cc3-591b21ee1d91</elementGuidId>
-   <imagePath></imagePath>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'password' and @id = 'txt-password' and @name = 'password' and @placeholder = 'Password']</value>
+         <key>IMAGE</key>
       </entry>
       <entry>
          <key>CSS</key>
@@ -19,11 +17,11 @@
          <value>//input[@id='txt-password']</value>
       </entry>
       <entry>
-         <key>IMAGE</key>
-         <value></value>
+         <key>BASIC</key>
+         <value>//*[@type = 'password' and @id = 'txt-password' and @name = 'password' and @placeholder = 'Password']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
