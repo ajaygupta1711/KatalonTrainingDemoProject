@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>DataDriven_Pyramid</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>5</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>a2858e67-00d1-410f-9c1a-9edcddbfb484</testSuiteGuid>
+   <testCaseLink>
+      <guid>590bd6d0-a5c2-4555-8660-d01aaaf2942c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/PyramidTimesheet/PyramidTimesheet</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>b644c084-70e5-4070-bce1-028ee6a6781a</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Login_Pyramid</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>b644c084-70e5-4070-bce1-028ee6a6781a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Username</value>
+         <variableId>e02c73f2-394e-48fd-bcbb-7afc9bc6ce55</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b644c084-70e5-4070-bce1-028ee6a6781a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>4a2291d6-7df3-467c-be2a-d4ca146edc39</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

@@ -31,21 +31,5 @@ WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/input_Password_Subm
 
 WebUI.verifyTextPresent('Welcome', false)
 
-not_run: WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/b_Admin'))
-
-not_run: WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/a_User Management'))
-
-not_run: WebUI.waitForAlert(3)
-
-not_run: WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/a_Users'))
-
-not_run: WebUI.verifyTextPresent('Username', false)
-
-not_run: WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_Username_searchSystemUseruserName'), 'Admin')
-
-not_run: WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/input_Status__search'))
-
-not_run: WebUI.waitForAlert(3)
-
 WebUI.closeBrowser()
 

@@ -22,10 +22,10 @@ WebUI.openBrowser('')
 WebUI.navigateToUrl('https://pyramidcore.pyramidci.com/security/PCILoginNew.aspx')
 
 WebUI.setText(findTestObject('Object Repository/Pyramid Timesheet/Page_PyramidCore-Login/input_User ID_pydLogintxtUserid'), 
-    'ajay.gupta')
+    Username)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Pyramid Timesheet/Page_PyramidCore-Login/input_Password_pydLogintxtUserPwd'), 
-    'WKnduguxBWKoZ20trn7mfw==')
+    Password)
 
 WebUI.click(findTestObject('Object Repository/Pyramid Timesheet/Page_PyramidCore-Login/input_Password_pydLoginbtnLogin'))
 
@@ -35,14 +35,15 @@ WebUI.click(findTestObject('Object Repository/Pyramid Timesheet/Page_PyramidCore
 
 WebUI.click(findTestObject('Object Repository/Pyramid Timesheet/Page_PyramidCore Home Page/a_My Weekly TS'))
 
-WebUI.click(findTestObject('Object Repository/Pyramid Timesheet/Page_PyramidCore Home Page/div_Thu'))
+not_run: WebUI.click(findTestObject('Object Repository/Pyramid Timesheet/Page_PyramidCore Home Page/div_Thu'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Pyramid Timesheet/Page_PyramidCore Home Page/div_Thu'), 'Thu')
+not_run: WebUI.verifyElementText(findTestObject('Object Repository/Pyramid Timesheet/Page_PyramidCore Home Page/div_Thu'), 
+    'Thu')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Pyramid Timesheet/Page_PyramidCore Home Page/select_0                                   _4165cd'), 
+not_run: WebUI.selectOptionByValue(findTestObject('Object Repository/Pyramid Timesheet/Page_PyramidCore Home Page/select_0                                   _4165cd'), 
     '8', true)
 
-WebUI.click(findTestObject('Object Repository/Pyramid Timesheet/Page_PyramidCore Home Page/button_Save'))
+not_run: WebUI.click(findTestObject('Object Repository/Pyramid Timesheet/Page_PyramidCore Home Page/button_Save'))
 
 WebUI.closeBrowser()
 
